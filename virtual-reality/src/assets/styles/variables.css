@@ -1,0 +1,21 @@
+:root {
+    --linear: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+    --purple-10: #CA6AEB;
+    --blue: #19B5F1;
+    --success: #00C566;
+    --error: #FF4747;
+    --warning: #FACC15;
+    --black-100: #18181B;
+    --black-50: #252532;
+    --grey-1: #96969b;
+    --grey-2: #D1D1D1;
+    --white: #FFFFFF;
+}
+
+:root {
+    --bg-icon: url('../images/components/cicle_opinions/Bg.svg');
+    --bg-icon-active: url('../images/components/cicle_opinions/Bg_active.svg');
+    --bg-for-text: url('../images/components/cicle_opinions/Bg_for_text.svg');
+    --bg-our-articles-carousel: url('../images/components/our_articles/Carousel_bg.png');
+    --bg-icon-footer: url('../images/components/footer/Bg_icon.svg');
+}
