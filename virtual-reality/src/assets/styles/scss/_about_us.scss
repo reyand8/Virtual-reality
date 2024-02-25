@@ -117,44 +117,54 @@
 }
 
 @media screen and (max-width: 1042px) {
-  .about_us__bg_light {
-    width: 500px;
-    height: 700px;
+  .about_us .about_us__bg_elem{
+    .about_us__bg_light {
+      width: 500px;
+      height: 700px;
+    }
   }
 }
 
 @media screen and (max-width: 741px) {
-  .about_us__bg_light {
-    width: 400px;
-    height: 600px;
-  }
-  .about_us__video {
-    left: 240px;
-  }
-  .about_us__main_info {
-    .about_us__main_info_title {
-      max-width: 398px;
-      width: 100%;
+  .about_us{
+    .about_us__bg_elem {
+      .about_us__bg_light {
+        width: 400px;
+        height: 600px;
+      }
     }
-    .about_us__main_info_text {
-      max-width: 398px;
-      width: 100%;
+    .about_us__video {
+      left: 240px;
+    }
+    .about_us__main_info {
+      .about_us__main_info_title {
+        max-width: 398px;
+        width: 100%;
+      }
+      .about_us__main_info_text {
+        max-width: 398px;
+        width: 100%;
+      }
     }
   }
 }
 
 @media screen and (max-width: 673px) {
-  .about_us__img {
-    width: 418px;
-    height: 522px;
-  }
-  .about_us__bg {
-    width: 299px;
-    height: 397px;
-  }
-  .about_us__bg_light {
-    width: 300px;
-    height: 500px;
+  .about_us {
+    .about_us__bg_elem {
+      .about_us__img {
+        width: 418px;
+        height: 522px;
+      }
+      .about_us__bg {
+        width: 299px;
+        height: 397px;
+      }
+      .about_us__bg_light {
+        width: 300px;
+        height: 500px;
+      }
+    }
   }
 }
 
@@ -165,13 +175,15 @@
       width: 199px;
       height: 297px;
     }
-    .about_us__img {
-      width: 318px;
-      height: 422px;
-    }
-    .about_us__bg_light {
-      width: 200px;
-      height: 400px;
+    .about_us__bg_elem {
+      .about_us__img {
+        width: 318px;
+        height: 422px;
+      }
+      .about_us__bg_light {
+        width: 200px;
+        height: 400px;
+      }
     }
     .about_us__video {
       left: 110px;
@@ -188,20 +200,24 @@
 }
 
 @media screen and (max-width: 378px) {
-  .about_us__bg {
-    width: 79px;
-    height: 177px;
-  }
-  .about_us__img {
-    width: 298px;
-    height: 312px;
-    left: 0;
-  }
-  .about_us__bg_light {
-    width: 90px;
-    height: 290px;
-  }
-  .about_us__video {
-    left: 30px;
+  .about_us {
+    .about_us__bg {
+      width: 79px;
+      height: 177px;
+    }
+    .about_us__bg_elem {
+      .about_us__img {
+        width: 298px;
+        height: 312px;
+        left: 0;
+      }
+      .about_us__bg_light {
+        width: 90px;
+        height: 290px;
+      }
+    }
+    .about_us__video {
+      left: 30px;
+    }
   }
 }
