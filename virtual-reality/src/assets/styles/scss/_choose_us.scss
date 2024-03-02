@@ -2,10 +2,10 @@
   margin-top: 244px;
   max-width: 1109px;
   width: 100%;
-  .choose_us__main {
+  &__main {
     display: flex;
     flex-direction: row;
-    .choose_us__main_one{
+    &_one{
       margin-right: 173px;
       max-width: 548px;
       width: 100%;
@@ -46,12 +46,11 @@
         }
       }
     }
-    .choose_us__main_two{
+    &_two{
       position: relative;
       max-width: 609px;
       width: 100%;
       height: 699px;
-
       .choose_us__bg {
         position: absolute;
         z-index: -2;
@@ -92,14 +91,14 @@
   .choose_us {
     margin-top: 104px;
     height: 1228px;
-    .choose_us__main {
+    &__main {
       flex-direction: column;
       align-items: center;
       margin: 0 10px;
-      .choose_us__main_one {
+      &_one {
         margin: 0 auto;
       }
-      .choose_us__main_two {
+      &_two {
         margin-top: 160px;
         display: flex;
         justify-content: center;
@@ -117,14 +116,13 @@
 @media screen and (max-width: 741px) {
   .choose_us {
     height: 1028px;
-    .choose_us__main_info p {
-      //heading5
+    &__main_info p {
       font-size: 32px;
       font-weight: 600;
       line-height: 42px;
     }
-    .choose_us__main {
-      .choose_us__main_two {
+    &__main {
+      &_two {
         margin-top: 140px;
         .choose_us__bg {
           width: 299px;
@@ -154,8 +152,8 @@
 @media screen and (max-width: 673px) {
   .choose_us {
     height: 928px;
-    .choose_us__main {
-      .choose_us__main_two {
+    &__main {
+      &_two {
         max-width: 473px;
         .choose_us__bg {
           width: 239px;
@@ -186,8 +184,8 @@
 
 @media screen and (max-width: 445px) {
   .choose_us {
-    .choose_us__main {
-      .choose_us__main_two {
+    &__main {
+      &_two {
         margin-top: 80px;
         max-width: 373px;
         .choose_us__bg {
@@ -220,8 +218,8 @@
 @media screen and (max-width: 378px) {
   .choose_us {
     height: 798px;
-    .choose_us__main {
-      .choose_us__main_two {
+    &__main {
+      &_two {
         max-width: 273px;
         margin-top: 50px;
         .choose_us__bg {
@@ -249,7 +247,3 @@
     }
   }
 }
-
-
-
-

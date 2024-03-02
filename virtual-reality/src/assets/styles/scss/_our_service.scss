@@ -1,12 +1,12 @@
  .our_service{
   margin-top: 120px;
-   .our_service__main {
+   &__main {
      display: flex;
      flex-direction: row;
      justify-content: space-between;
      max-width: 1200px;
      width: 100%;
-     .our_service__main_info {
+     &_info {
        h5{
          max-width: 128px;
          width: 100%;
@@ -16,36 +16,36 @@
          margin: 12px 0;
        }
      }
-     .our_service__main_text {
+     &_text {
        color: var(--grey-2);
        max-width: 625px;
        width: 100%;
      }
    }
-   .our_service__table {
+   &__table {
      display: flex;
      flex-direction: row;
      margin-top: 70px;
-     .our_service__blocks_left {
+     &_left {
        margin-right: 36px;
-       .our_service__left_one {
+       &_one {
          margin-bottom: 32px;
        }
      }
-     .our_service__blocks_center {
+     &_center {
        margin-top: 48px;
        margin-right: 26px;
-       .our_service__center_one {
+       &_one {
          margin-bottom: 30px ;
        }
      }
-     .our_service__blocks_right {
+     &_right {
        margin-top: 120px;
-       .our_service__right_one {
+       &_one {
          margin-bottom: 30px;
        }
      }
-     .our_service__table_section {
+     &_section {
        position: relative;
        width: 349px;
        height: 291px;
@@ -100,57 +100,59 @@
    }
 }
 
-
 @media screen and (max-width: 1253px) {
   .our_service {
-    .our_service__main {
+    &__main {
       flex-direction: column;
       max-width: 562px;
       margin: 0 12px 0 12px;
     }
-    .our_service__table {
+    &__table {
       flex-direction: column;
       align-items: center;
-      .our_service__blocks_left {
+      &_left {
         margin-right: 0;
       }
-      .our_service__blocks_right{
+      &_right{
         margin-top: 32px;
       }
-      .our_service__blocks_center {
+      &_center {
         margin-top: 32px;
         margin-right: 0;
       }
     }
   }
-
 }
 
 @media screen and (max-width: 741px) {
-  .our_service__main_info{
-    p {
-      max-width: 398px;
-      width: 100%;
-      font-size: 32px;
-      line-height: 42px;
+  .our_service {
+    &__main {
+      &_info{
+        p {
+          max-width: 398px;
+          width: 100%;
+          font-size: 32px;
+          line-height: 42px;
+        }
+      }
+      &_text {
+        max-width: 398px;
+        width: 100%;
+      }
     }
-  }
-  .our_service .our_service__main .our_service__main_text {
-    max-width: 398px;
-    width: 100%;
   }
 }
 
 @media screen and (max-width: 445px) {
   .our_service {
-    .our_service__main {
-      .our_service__main_text{
+    &__main {
+      &_text{
         max-width: 298px;
         width: 100%;
       }
     }
-    .our_service__table {
-      .our_service__table_section {
+    &__table {
+      &_section {
         max-width: 289px;
         width: 100%;
         height: 311px;

@@ -1,9 +1,9 @@
 .get_started {
-  .get_started__main {
+  &__main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    .get_started__main_info{
+    &_info{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -21,14 +21,12 @@
         width: 679px;
       }
     }
-    .get_started__main_video {
+    &_video {
       position: relative;
       img {
         max-width: 1109px;
         width: 100%;
-
       }
-
       .get_started__bg_gradient {
         position: absolute;
         z-index: -5;
@@ -60,19 +58,19 @@
 
 @media screen and (max-width: 741px) {
   .get_started {
-    .get_started__main{
-      .get_started__main_info p{
+    &__main{
+      &_info p{
         font-size: 32px;
         font-weight: 600;
         line-height: 42px;
         max-width: 510px;
         width: 100%;
       }
-      .get_started__main_video {
+      &_video {
         margin: 0 20px;
         .get_started__bg_gradient{
           width: 199px;
-          height: 484px;
+          height: 284px;
           bottom: 0;
         }
       }

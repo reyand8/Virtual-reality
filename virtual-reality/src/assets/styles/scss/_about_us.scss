@@ -1,20 +1,20 @@
 .about_us{
   margin-top: 200px;
-  .about_us__main {
+  &__main {
     display: flex;
     flex-direction: row;
-    .about_us__main__one{
+    &__one{
       position: relative;
     }
   }
-  .about_us__bg {
+  &__bg {
     width: 399px;
     height: 497px;
     background: var(--black-50);
     opacity: 0.5;
     margin-top: 45px;
   }
-  .about_us__bg_elem {
+  &__bg_elem {
     height: 0;
     .about_us__img {
       width: 518px;
@@ -34,7 +34,7 @@
       z-index: -1;
     }
   }
-  .about_us__video {
+  &__video {
     display: flex;
     align-items: center;
     z-index: 5;
@@ -50,20 +50,20 @@
       margin: 0 auto;
     }
   }
-  .about_us__main__two{
+  &__main__two{
     margin-left: 180px;
     .about_us__main_info {
       h5 {
         max-width: 98px;
         width: 100%;
       }
-      .about_us__main_info_title {
+      &_title {
         color: var(--white);
         margin: 12px 0 12px 0;
         max-width: 562px;
         width: 100%;
       }
-      .about_us__main_info_text {
+      &_text {
         color: var(--grey-2);
         margin-bottom: 24px;
         max-width: 528px;
@@ -102,14 +102,14 @@
 
 @media screen and (max-width: 1253px) {
   .about_us {
-    .about_us__main {
+    &__main {
       flex-direction: column;
       align-items: center;
-      .about_us__main__one{
+      &__one{
         max-width: 562px;
         width: 100%;
       }
-      .about_us__main__two {
+      &__two {
         margin: 40px 10px 0 10px;
       }
     }
@@ -117,34 +117,39 @@
 }
 
 @media screen and (max-width: 1042px) {
-  .about_us .about_us__bg_elem{
-    .about_us__bg_light {
-      width: 500px;
-      height: 700px;
+  .about_us {
+    &__bg_elem{
+      .about_us__bg_light {
+        width: 500px;
+        height: 700px;
+      }
     }
   }
 }
 
 @media screen and (max-width: 741px) {
   .about_us{
-    .about_us__bg_elem {
+    &__main {
+      margin: 0 12px;
+    }
+    &__bg_elem {
       .about_us__bg_light {
         width: 400px;
         height: 600px;
       }
     }
-    .about_us__video {
+    &__video {
       left: 240px;
     }
-    .about_us__main_info {
-      .about_us__main_info_title {
+    &__main_info {
+      &_title {
         max-width: 398px;
         width: 100%;
         font-size: 32px;
         font-weight: 600;
         line-height: 42px;
       }
-      .about_us__main_info_text {
+      &_text {
         max-width: 398px;
         width: 100%;
       }
@@ -154,16 +159,16 @@
 
 @media screen and (max-width: 673px) {
   .about_us {
-    .about_us__bg_elem {
-      .about_us__img {
+    &__bg {
+      width: 299px;
+      height: 397px;
+    }
+    &__bg_elem {
+      &__img {
         width: 418px;
         height: 522px;
       }
-      .about_us__bg {
-        width: 299px;
-        height: 397px;
-      }
-      .about_us__bg_light {
+      &__bg_light {
         width: 300px;
         height: 500px;
       }
@@ -174,11 +179,11 @@
 @media screen and (max-width: 558px) {
   .about_us {
     margin-top: 150px;
-    .about_us__bg {
+    &__bg {
       width: 199px;
       height: 297px;
     }
-    .about_us__bg_elem {
+    &__bg_elem {
       .about_us__img {
         width: 318px;
         height: 422px;
@@ -188,7 +193,7 @@
         height: 400px;
       }
     }
-    .about_us__video {
+    &__video {
       left: 110px;
       width: 172px;
       height: 108px;
@@ -204,11 +209,11 @@
 
 @media screen and (max-width: 378px) {
   .about_us {
-    .about_us__bg {
+    &__bg {
       width: 79px;
       height: 177px;
     }
-    .about_us__bg_elem {
+    &__bg_elem {
       .about_us__img {
         width: 298px;
         height: 312px;
@@ -219,7 +224,7 @@
         height: 290px;
       }
     }
-    .about_us__video {
+    &__video {
       left: 30px;
     }
   }

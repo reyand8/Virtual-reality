@@ -2,29 +2,29 @@
   display: flex;
   flex-direction: row;
   overflow: hidden;
-  .home_intro__main_one {
+  &_one {
     margin: 87px 135px 0 0;
   }
-  .home_intro__main_two {
+  &_two {
     position: relative;
     margin-bottom: -4px;
   }
-  .home_intro__main_two__bg {
+  &_two__bg {
     position: absolute;
     z-index: -3;
     right: 20px;
   }
-  .home_intro__main_info {
+  &_info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
-  .home_intro__main_title h2{
+  &_title h2{
     color: var(--white);
     max-width: 540px;
     width: 100%;
   }
-  .home_intro__main_text {
+  &_text {
     color: var(--grey-2);
     max-width: 446px;
     width: 100%;
@@ -60,52 +60,52 @@
     display: flex;
     margin-top: 43px;
     align-items: center;
-  }
-  .home_intro__clients_img  {
-    display: flex;
-    align-items: flex-start;
-    margin-left: 12px;
-    img {
-      margin: -12px;
+    &_img  {
+      display: flex;
+      align-items: flex-start;
+      margin-left: 12px;
+      img {
+        margin: -12px;
+      }
     }
-  }
-  .home_intro__clients_text{
-    display: flex;
-    flex-direction: column;
-    margin-left: 28px;
-  }
-  .home_intro__clients_text_info {
-    display: flex;
-    flex-direction: row;
-    :first-child {
-      color: var(--white);
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 28px;
+    &_text{
+      display: flex;
+      flex-direction: column;
+      margin-left: 28px;
+      &_info {
+        display: flex;
+        flex-direction: row;
+        :first-child {
+          color: var(--white);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 28px;
+        }
+        :last-child {
+          color: var(--grey-2);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 28px;
+          padding-left: 5px;
+        }
+        &_elem {
+          margin-top: -17px;
+          margin-left: -7px;
+        }
+      }
     }
-  }
-  .home_intro__clients_text_info :last-child {
-    color: var(--grey-2);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 28px;
-    padding-left: 5px;
-  }
-  .home_intro__clients_text_info_elem {
-    margin-top: -17px;
-    margin-left: -7px;
-  }
-  .home_intro__clients_video {
-    display: flex;
-    width: 196px;
-    height: 127px;
-    flex-shrink: 0;
-    background: #21232E;
-    margin-left: 75px;
-    img {
-      margin: 0 auto;
+    &_video {
+      display: flex;
+      width: 196px;
+      height: 127px;
+      flex-shrink: 0;
+      background: #21232E;
+      margin-left: 75px;
+      img {
+        margin: 0 auto;
+      }
     }
   }
 }
@@ -122,37 +122,36 @@
   .home_intro {
     max-width: 1200px;
     width: 100%;
-  }
-  .home_intro__main {
-    flex-direction: column;
-    align-items: center;
-
-    .home_intro__vectors_bg {
-      top: 550px;
-      max-width: 900px;
-      width: 100%;
+    &__main {
+      flex-direction: column;
+      align-items: center;
+      .home_intro__vectors_bg {
+        top: 550px;
+        max-width: 900px;
+        width: 100%;
+      }
+      &__main_two__bg {
+        top: 0;
+        max-width: 400px;
+        right: 290px;
+        width: 100%;
+      }
     }
-
-    .home_intro__main_two__bg {
-      top: 0;
+    &_two__img {
+      position: relative;
       max-width: 400px;
-      right: 290px;
       width: 100%;
+      left: 120px;
     }
-  }
-  .home_intro__main_two__img {
-    position: relative;
-    max-width: 400px;
-    width: 100%;
-    left: 120px;
-  }
-  .home_intro__main .home_intro__clients_video {
-    position: relative;
-    top: 320px;
-    right: 100px;
-    z-index: 9;
+    .home_intro__main .home_intro__clients_video {
+      position: relative;
+      top: 320px;
+      right: 100px;
+      z-index: 9;
+    }
   }
 }
+
 @media screen and (max-width: 1253px) {
   .home_intro__main_two__img {
     max-width: 380px;
@@ -173,16 +172,17 @@
 
 @media screen and (max-width: 741px) {
   .home_intro__main {
-    .home_intro__main_title h3 {
+    &_one {
+      margin: 87px 20px 0 40px;
+    }
+    &_title h3 {
       font-size: 48px;
     }
-  }
-  .home_intro__main_two__img {
-    position: relative;
-    max-width: 300px;
-    width: 100%;
-  }
-  .home_intro__main {
+    &_two__img {
+      position: relative;
+      max-width: 300px;
+      width: 100%;
+    }
     .home_intro__clients_video {
       position: relative;
       top: 220px;
@@ -190,28 +190,25 @@
       z-index: 9;
     }
   }
-  .home_intro__main .home_intro__main_one {
-    margin: 87px 20px 0 40px;
-  }
 }
 
 @media screen and (max-width: 673px) {
   .home_intro__main {
-    .home_intro__main_title h2 {
+    &_title h2 {
       font-size: 48px;
     }
-    .home_intro__main_two__img {
+    &_two__img {
       max-width: 200px;
     }
     .home_intro__clients {
       position: relative;
-    }
-    .home_intro__clients_video{
-      position: absolute;
-      width: 120px;
-      height: 80px;
-      top: 100px;
-      right: 370px;
+      &_video{
+        position: absolute;
+        width: 120px;
+        height: 80px;
+        top: 100px;
+        right: 370px;
+      }
     }
   }
 }
@@ -226,33 +223,34 @@
 
 @media screen and (max-width: 445px) {
   .home_intro__main {
-    .home_intro__main_two__img {
+    &_two__img {
       max-width: 200px;
     }
-    .home_intro__clients_text_info :first-child {
-      font-size: 14px;
-    }
-    .home_intro__clients_text_info :last-child {
-      font-size: 14px;
-    }
-    .home_intro__clients_video {
-      right: 210px;
+    .home_intro__clients {
+      &_text_info :first-child {
+        font-size: 14px;
+      }
+      &_text_info :last-child {
+        font-size: 14px;
+      }
+      &_video {
+        right: 210px;
+      }
     }
   }
 }
 
 @media screen and (max-width: 378px) {
   .home_intro__main {
-    .home_intro__clients_img img {
-      width: 41px;
-      height: 41px;
-      margin: -8px;
-    }
-    .home_intro__clients_video {
-      right: 148px;
+    .home_intro__clients {
+      &_img img {
+        width: 41px;
+        height: 41px;
+        margin: -8px;
+      }
+      &_video {
+        right: 148px;
+      }
     }
   }
 }
-
-
-
