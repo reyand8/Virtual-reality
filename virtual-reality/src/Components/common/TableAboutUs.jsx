@@ -8,7 +8,7 @@ const TableAboutUs  = () => {
     return (
         <section className='about_us__table'>
             <div className='about_us__table__boxes'>
-                <div className='about_us__table__table_box'>
+                <div className='about_us__table__box'>
                     <div>
                         <img src={Table1} alt="Table1"/>
                     </div>
@@ -25,7 +25,7 @@ const TableAboutUs  = () => {
                         </p>
                     </div>
                 </div>
-                <div className='about_us__table__table_box'>
+                <div className='about_us__table__box'>
                     <div>
                         <img src={Table2} alt="Table2"/>
                     </div>
@@ -41,7 +41,7 @@ const TableAboutUs  = () => {
                             solution that meets your specific needs and goals</p>
                     </div>
                 </div>
-                <div className='about_us__table__table_box'>
+                <div className='about_us__table__box'>
                     <div>
                         <img src={Table3} alt="Table3"/>
                     </div>

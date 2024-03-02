@@ -28,8 +28,8 @@ const OurService  = () => {
                 </div>
             </div>
             <div className='our_service__table'>
-                <div className='our_service__blocks_left'>
-                    <div className='our_service__table_section our_service__left_one'>
+                <div className='our_service__table_left'>
+                    <div className='our_service__table_section our_service__table_left_one'>
                         <div className='our_service__table_content'>
                             <img src={Software} alt="Software"/>
                             <h6 className='heading_7'>VR Development</h6>
@@ -42,7 +42,7 @@ const OurService  = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='our_service__table_section our_service__left_two'>
+                    <div className='our_service__table_section our_service__table_left_two'>
                         <div className='our_service__table_content'>
                             <img src={Video_console} alt="Video_console"/>
                             <h6 className='heading_7'>VR Development</h6>
@@ -57,8 +57,8 @@ const OurService  = () => {
                         </div>
                     </div>
                 </div>
-                <div className='our_service__blocks_center'>
-                    <div className='our_service__table_section our_service__center_one'>
+                <div className='our_service__table_center'>
+                    <div className='our_service__table_section our_service__table_center_one'>
                         <div className='our_service__table_content'>
                             <img src={Design} alt="Design"/>
                             <h6 className='heading_7'>VR Design</h6>
@@ -86,8 +86,8 @@ const OurService  = () => {
                         </div>
                     </div>
                 </div>
-                <div className='our_service__blocks_right'>
-                    <div className='our_service__table_section our_service__right_one'>
+                <div className='our_service__table_right'>
+                    <div className='our_service__table_section our_service__table_right_one'>
                         <div className='our_service__table_content'>
                             <img src={Review} alt="Review"/>
                             <h6 className='heading_7'>VR Consulting</h6>
