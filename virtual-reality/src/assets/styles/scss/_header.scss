@@ -4,26 +4,31 @@
   align-items: center;
   justify-content: space-around;
   margin: 40px 0 80px 0;
+
   &__logo {
     display: flex;
     align-items: center;
     max-width: 181px;
     width: 100%;
+
     &_icon img {
       width: 58px;
     }
+
     &_name img {
       width: 79px;
       padding-left: 4px;
     }
   }
+
   .header__nav_menu {
-    ul{
+    ul {
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-evenly;
-      li{
+
+      li {
         margin: 0 60px;
         font-size: 22px;
         font-style: normal;
@@ -33,11 +38,13 @@
       }
     }
   }
+
   .header__button {
     padding: 12px 24px;
     border: 1px solid transparent;
     border-image: linear-gradient(#0CBAF1, #E95CE9) 1;
     margin-right: 160px;
+
     button {
       color: var(--white);
       font-size: 22px;
@@ -46,12 +53,15 @@
       line-height: 28px;
     }
   }
+
   .hamburger-menu {
     display: none;
+
     .menu__btn {
       background: linear-gradient(0deg, #252532, #252532);
     }
   }
+
   .header__vector {
     overflow: hidden;
     position: absolute;
@@ -87,12 +97,15 @@
   .header {
     justify-content: space-between;
     margin: 40px 80px 0 80px;
-    &__nav{
+
+    &__nav {
       display: none;
     }
+
     &__button {
       display: none;
     }
+
     .hamburger-menu {
       display: flex;
     }
@@ -101,20 +114,24 @@
     #menu__toggle {
       opacity: 0;
     }
+
     #menu__toggle:checked + .menu__btn > span {
       width: 20px;
       transform: rotate(45deg);
     }
+
     #menu__toggle:checked + .menu__btn > span::before {
       width: 20px;
       top: 0;
       transform: rotate(0deg);
     }
+
     #menu__toggle:checked + .menu__btn > span::after {
       width: 20px;
       top: 0;
       transform: rotate(90deg);
     }
+
     #menu__toggle:checked ~ .menu__box {
       display: flex;
       flex-direction: column;
@@ -122,6 +139,7 @@
       right: 60px;
       top: 20px;
     }
+
     .menu__btn {
       border: 1px solid transparent;
       border-image: linear-gradient(#0CBAF1, #E95CE9) 1;
@@ -133,17 +151,21 @@
       align-items: center;
       justify-content: center;
     }
+
     .menu__btn > span::before {
       width: 20px;
     }
-    .menu__btn > span{
+
+    .menu__btn > span {
       display: flex;
       justify-content: flex-end;
       width: 14px;
     }
-    .menu__btn > span::after{
+
+    .menu__btn > span::after {
       width: 8px;
     }
+
     .menu__btn > span,
     .menu__btn > span::before,
     .menu__btn > span::after {
@@ -152,10 +174,12 @@
       background-color: var(--white);
       transition-duration: .25s;
     }
+
     .menu__btn > span::before {
       content: '';
       top: -8px;
     }
+
     .menu__btn > span::after {
       content: '';
       top: 8px;
@@ -171,6 +195,7 @@
     transition-duration: .25s;
     border-radius: 30px;
     height: 420px;
+
     .menu__item_btn {
       display: flex;
       justify-content: center;
@@ -180,6 +205,7 @@
       border-image: linear-gradient(#0CBAF1, #E95CE9) 1;
       width: 180px;
       margin: 40px auto;
+
       button {
         color: var(--white);
         font-size: 22px;
@@ -188,8 +214,10 @@
         line-height: 28px;
       }
     }
+
     .menu__box_item {
       margin-left: 16px;
+
       .menu__item {
         display: block;
         padding: 12px 24px;
@@ -200,6 +228,7 @@
         color: var(--white);
         text-decoration: none;
         transition-duration: .25s;
+
         .menu__item:hover {
           background-color: var(--linear);
         }
@@ -213,7 +242,7 @@
     margin: 40px 4px 0 4px;
   }
   .hamburger-menu #menu__toggle:checked ~ .menu__box {
-      right: 0;
+    right: 0;
   }
   .menu__box {
     width: 240px;
@@ -225,13 +254,16 @@
       padding: 6px 6px;
       width: 160px;
       margin: 20px auto;
+
       button {
         color: var(--white);
         font-size: 18px;
       }
     }
+
     .menu__box_item {
       margin-left: 16px;
+
       .menu__item {
         padding: 12px 24px;
         font-size: 18px;

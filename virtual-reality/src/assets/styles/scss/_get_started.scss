@@ -3,11 +3,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    &_info{
+
+    &_info {
       display: flex;
       flex-direction: column;
       align-items: center;
       margin-bottom: 48px;
+
       h5 {
         background: var(--linear);
         background-clip: text;
@@ -15,18 +17,22 @@
         -webkit-text-fill-color: transparent;
         margin-bottom: 12px;
       }
+
       p {
         color: var(--white);
         text-align: center;
         width: 679px;
       }
     }
+
     &_video {
       position: relative;
+
       img {
         max-width: 1109px;
         width: 100%;
       }
+
       .get_started__bg_gradient {
         position: absolute;
         z-index: -5;
@@ -38,6 +44,7 @@
         filter: blur(105px);
       }
     }
+
     .get_started__button {
       color: var(--white);
       text-align: center;
@@ -58,17 +65,19 @@
 
 @media screen and (max-width: 741px) {
   .get_started {
-    &__main{
-      &_info p{
+    &__main {
+      &_info p {
         font-size: 32px;
         font-weight: 600;
         line-height: 42px;
         max-width: 510px;
         width: 100%;
       }
+
       &_video {
         margin: 0 20px;
-        .get_started__bg_gradient{
+
+        .get_started__bg_gradient {
           width: 199px;
           height: 284px;
           bottom: 0;
