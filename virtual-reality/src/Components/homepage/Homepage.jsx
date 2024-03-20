@@ -22,13 +22,13 @@ const Homepage  = () => {
                 <TableAboutUs/>
                 <AboutUs/>
                 <OurService/>
-                {/*<ChooseUs/>*/}
-                {/*<GetStarted/>*/}
-                {/*<CicleOpinions/>*/}
-                {/*<OurPricing/>*/}
-                {/*<OurPartners/>*/}
-                {/*<OurArticles/>*/}
-                {/*<Footer/>*/}
+                <ChooseUs/>
+                <GetStarted/>
+                <CicleOpinions/>
+                <OurPricing/>
+                <OurPartners/>
+                <OurArticles/>
+                <Footer/>
 
             </div>
 
