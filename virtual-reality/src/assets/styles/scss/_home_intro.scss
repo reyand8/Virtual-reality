@@ -68,6 +68,7 @@
   .home_intro__clients {
     display: flex;
     margin-top: 43px;
+    margin-bottom: 26px;
     align-items: center;
 
     &_img {
@@ -151,7 +152,7 @@
         width: 100%;
       }
 
-      &__main_two__bg {
+      &_two__img {
         top: 0;
         max-width: 400px;
         right: 290px;
@@ -169,7 +170,7 @@
     .home_intro__main .home_intro__clients_video {
       position: relative;
       top: 320px;
-      right: 100px;
+      right: 338px;
       z-index: 9;
     }
   }
@@ -204,9 +205,7 @@
     }
 
     &_two__img {
-      position: relative;
       max-width: 300px;
-      width: 100%;
     }
 
     .home_intro__clients_video {
@@ -219,33 +218,38 @@
 }
 
 @media screen and (max-width: 673px) {
-  .home_intro__main {
-    &_title h2 {
-      font-size: 48px;
-    }
+  .home_intro {
+    .home_intro__main {
+      &_title h2 {
+        font-size: 48px;
+      }
 
-    &_two__img {
-      max-width: 200px;
-    }
+      &_two__img {
+        max-width: 200px;
+      }
 
-    .home_intro__clients {
-      position: relative;
+      .home_intro__clients {
+        position: relative;
 
-      &_video {
-        position: absolute;
-        width: 120px;
-        height: 80px;
-        top: 100px;
-        right: 370px;
+        &_video {
+          position: absolute;
+          width: 120px;
+          height: 80px;
+          top: 165px;
+          right: 370px;
+        }
       }
     }
   }
 }
 
 @media screen and (max-width: 558px) {
-  .home_intro__main {
-    .home_intro__clients_video {
-      right: 270px;
+  .home_intro {
+    .home_intro__main {
+      .home_intro__clients_video {
+        right: 180px;
+        top: 171px;
+      }
     }
   }
 }
