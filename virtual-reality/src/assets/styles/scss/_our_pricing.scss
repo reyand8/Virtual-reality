@@ -1,0 +1,262 @@
+.our_pricing {
+  margin: 95px 0 95px 0;
+
+  &__main_info {
+    h5 {
+      width: 130px;
+      margin-bottom: 12px;
+    }
+
+    &_title {
+      color: var(--white);
+      margin-bottom: 12px;
+    }
+
+    &_text {
+      color: var(--grey-2);
+      max-width: 625px;
+      width: 100%;
+      margin-bottom: 36px;
+    }
+  }
+
+  &__table {
+    display: flex;
+    max-width: 1109px;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(37, 37, 50, 0.81), rgba(37, 37, 50, 0.81)),
+    linear-gradient(94.92deg, rgba(255, 255, 255, 0.3) -0.29%, rgba(255, 255, 255, 0) 100%);
+    border: 2px solid;
+    border-image-source: linear-gradient(94.92deg, rgba(255, 255, 255, 0.3) -0.29%, rgba(255, 255, 255, 0) 100%);
+
+    &_main {
+      margin: 60px 60px 30px 50px;
+
+      .our_pricing__table_info {
+        display: flex;
+        justify-content: space-between;
+        width: 640px;
+        margin-bottom: 28px;
+
+        h6 {
+          color: var(--white);
+          margin-bottom: 10px;
+        }
+
+        p {
+          color: var(--grey-1);
+          width: 582px;
+        }
+      }
+    }
+
+    &_line {
+      height: 447px;
+      opacity: 10%;
+      border: 1px solid var(--white);
+      margin-top: 50px;
+    }
+  }
+
+  &__offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 414px;
+    right: 44px;
+    width: 321px;
+    height: 222px;
+    border: 1px solid;
+    border-image: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%) 1;
+    background: linear-gradient(0deg, #252532, #252532),
+    linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+
+    &_title {
+      color: var(--grey-2);
+      margin-top: 16px;
+    }
+
+    &_price {
+      color: var(--white);
+      font-size: 60px;
+      font-weight: 600;
+      line-height: 66px;
+      letter-spacing: 0;
+      text-align: left;
+    }
+
+    &_button {
+      margin: 14px 0 16px 0;
+      color: var(--white);
+      text-transform: uppercase;
+      padding: 18px 34px;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 14px;
+      letter-spacing: 1.5px;
+      text-align: center;
+      background: var(--linear);
+    }
+
+    &_details {
+      color: var(--grey-1);
+    }
+  }
+}
+
+@media screen and (max-width: 1253px) {
+  .our_pricing {
+    &__main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &_info {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    &__table {
+      max-width: 1014px;
+    }
+  }
+}
+
+@media screen and (max-width: 1042px) {
+  .our_pricing {
+    &__main_info {
+      max-width: 625px;
+      width: 100%;
+    }
+
+    &__table {
+      flex-direction: column;
+      max-width: 700px;
+
+      &_main {
+        margin-left: 25px;
+      }
+
+      &_line {
+        height: 0;
+        width: 630px;
+        margin: 0 auto;
+      }
+    }
+
+    &__offer {
+      top: 83px;
+      left: 17px;
+    }
+  }
+}
+
+@media screen and (max-width: 741px) {
+  .our_pricing {
+    &__main_info {
+      max-width: 490px;
+
+      &_title {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 42px;
+      }
+    }
+
+    &__table {
+      max-width: 500px;
+
+      &_main {
+        margin-left: 25px;
+
+        .our_pricing__table_info {
+          max-width: 380px;
+          width: 100%;
+        }
+
+        .our_pricing__table_info p {
+          max-width: 320px;
+          width: 100%;
+        }
+      }
+
+      &_line {
+        width: 430px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 673px) {
+  .our_pricing {
+    margin-left: 12px;
+    margin-right: 12px;
+
+    &__main_info {
+      max-width: 426px;
+    }
+
+    &__table {
+      max-width: 390px;
+
+      &_main {
+        margin-left: 15px;
+        margin-right: 25px;
+
+        .our_pricing__table_info {
+          max-width: 280px;
+          width: 100%;
+        }
+
+        .our_pricing__table_info p {
+          max-width: 220px;
+          width: 100%;
+        }
+      }
+
+      &_line {
+        width: 330px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .our_pricing {
+    &main_info {
+      max-width: 326px;
+      margin-left: 12px;
+      margin-right: 12px;
+    }
+
+    &__table {
+      max-width: 310px;
+
+      &_main {
+        margin-left: 15px;
+        margin-right: 25px;
+
+        .our_pricing__table_info {
+          max-width: 280px;
+          width: 100%;
+        }
+
+        .our_pricing__table_info p {
+          max-width: 220px;
+          width: 100%;
+        }
+      }
+
+      &_line {
+        width: 240px;
+      }
+    }
+
+    &__offer {
+      width: 231px;
+      height: 222px;
+    }
+  }
+}
