@@ -1,3 +1,5 @@
+import React from 'react';
+
 import '../../assets/styles/index.css';
 import Logo4 from '../../assets/images/components/our_partners/Logo4.svg';
 import Logo3 from '../../assets/images/components/our_partners/Logo3.svg';

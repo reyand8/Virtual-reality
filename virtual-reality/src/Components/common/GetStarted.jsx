@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Video5 from '../../assets/images/components/get_started/Video5.png';
 import '../../assets/styles/index.css';
 

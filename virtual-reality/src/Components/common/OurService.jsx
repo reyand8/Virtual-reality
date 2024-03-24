@@ -1,3 +1,5 @@
+import React from 'react';
+
 import '../../assets/styles/index.css';
 
 import Software from '../../assets/images/components/our_service/software.svg';

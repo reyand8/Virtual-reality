@@ -1,3 +1,5 @@
+import React from 'react';
+
 import '../../assets/styles/index.css';
 import Man2 from '../../assets/images/components/about_us/Man2.png';
 import Light_bg2 from '../../assets/images/components/about_us/Light_bg2.png';

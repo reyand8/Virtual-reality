@@ -1,16 +1,18 @@
-import Header from '../common/Header';
-import OurArticles from '../common/OurArticles';
-import Footer from '../common/Footer';
-import '../../assets/styles/index.css';
-import OurService from '../common/OurService';
-import HomeIntro from '../common/HomeIntro';
-import TableAboutUs from '../common/TableAboutUs';
-import AboutUs from '../common/AboutUs';
-import ChooseUs from '../common/ChooseUs';
-import GetStarted from '../common/GetStarted';
-import CicleOpinions from '../common/CicleOpinions';
-import OurPricing from '../common/OurPricing';
-import OurPartners from '../common/OurPartners';
+import React from 'react';
+
+import Header from './../common/Header';
+import OurArticles from './../common/OurArticles';
+import Footer from './../common/Footer';
+import './../../assets/styles/index.css';
+import OurService from './../common/OurService';
+import HomeIntro from './../common/HomeIntro';
+import TableAboutUs from './../common/TableAboutUs';
+import AboutUs from './../common/AboutUs';
+import ChooseUs from './../common/ChooseUs';
+import GetStarted from './../common/GetStarted';
+import CicleOpinions from './../common/CicleOpinions';
+import OurPricing from './../common/OurPricing';
+import OurPartners from './../common/OurPartners';
 
 
 const Homepage  = () => {
@@ -29,9 +31,7 @@ const Homepage  = () => {
                 <OurPartners/>
                 <OurArticles/>
                 <Footer/>
-
             </div>
-
         </section>
     );
 };

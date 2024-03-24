@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Expand_more from '../../assets/images/components/choose_us/Expand_more.svg';
 import Man3 from '../../assets/images/components/choose_us/Man3.png';
 import Video4 from '../../assets/images/components/choose_us/Video4.png';

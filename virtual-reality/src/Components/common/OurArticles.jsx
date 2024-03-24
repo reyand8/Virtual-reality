@@ -1,6 +1,7 @@
+import React from 'react';
 import {Carousel} from 'antd';
-import '../../assets/styles/index.css';
 
+import '../../assets/styles/index.css';
 import Scroll_Item1 from '../../assets/images/components/our_articles/Scroll_Item1.png';
 import Scroll_Item2 from '../../assets/images/components/our_articles/Scroll_Item2.png';
 import Scroll_Item3 from '../../assets/images/components/our_articles/Scroll_Item3.png';

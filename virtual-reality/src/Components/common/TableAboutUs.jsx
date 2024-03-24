@@ -1,3 +1,5 @@
+import React from 'react';
+
 import '../../assets/styles/index.css';
 import Table1 from '../../assets/images/components/home_intro/Table1.svg';
 import Table2 from '../../assets/images/components/home_intro/Table2.svg';

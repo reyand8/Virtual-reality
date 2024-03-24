@@ -1,3 +1,4 @@
+import React from 'react';
 
 import '../../assets/styles/index.css';
 import Footer_banner_message from '../../assets/images/components/footer/Footer_banner_message.svg';

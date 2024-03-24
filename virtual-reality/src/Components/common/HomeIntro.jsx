@@ -1,3 +1,5 @@
+import React from 'react';
+
 import '../../assets/styles/index.css';
 import Vectors_bg from '../../assets/images/components/home_intro/Vectors_bg.png';
 import Ellipse35 from '../../assets/images/components/home_intro/Ellipse 35.svg';

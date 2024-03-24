@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Person1 from '../../assets/images/components/cicle_opinions/Person1.svg';
 import Person2 from '../../assets/images/components/cicle_opinions/Person2.svg';
 import Person3 from '../../assets/images/components/cicle_opinions/Person3.svg';

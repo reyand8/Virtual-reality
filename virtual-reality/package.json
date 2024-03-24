@@ -16,8 +16,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "gulp-start": "gulp serve",
-    "gulp-build": "gulp build"
+    "lint": "eslint -c .eslintrc --ext .jsx ./src/Components/*",
+    "lint:fix": "npm run lint -- --fix",
+    "webpack-dev": "NODE_ENV=development webpack --mode development",
+    "webpack-start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open"
   },
   "eslintConfig": {
     "extends": [
@@ -39,8 +41,22 @@
   },
   "devDependencies": {
     "@ant-design/icons": "^5.3.0",
+    "@babel/polyfill": "^7.12.1",
     "antd": "^5.14.0",
+    "babel-eslint": "^10.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-minimizer-webpack-plugin": "^6.0.0",
+    "eslint": "^8.57.0",
+    "eslint-webpack-plugin": "^4.1.0",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.8.1",
     "react-infinite-scroll-component": "^6.1.0",
-    "react-router-dom": "^6.21.3"
+    "react-router-dom": "^6.21.3",
+    "terser-webpack-plugin": "^5.3.10",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2"
   }
 }

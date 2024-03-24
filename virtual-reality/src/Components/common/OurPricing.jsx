@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Icon_cloud from '../../assets/images/components/our_pricing/Icon_cloud.png';
 
 

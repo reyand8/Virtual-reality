@@ -1,3 +1,5 @@
+import React from 'react';
+
 import '../../assets/styles/index.css';
 import Logo from '../../assets/images/components/header/Logo.svg';
 import VRNas from '../../assets/images/components/header/VRNas.svg';
