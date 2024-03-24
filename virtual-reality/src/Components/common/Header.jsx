@@ -1,26 +1,26 @@
-import '../../assets/styles/index.css'
-import Logo from '../../assets/images/components/header/Logo.svg'
-import VRNas from '../../assets/images/components/header/VRNas.svg'
-import expand_more from '../../assets/images/components/header/expand_more.svg'
-import Vector from '../../assets/images/components/header/Vector.svg'
+import '../../assets/styles/index.css';
+import Logo from '../../assets/images/components/header/Logo.svg';
+import VRNas from '../../assets/images/components/header/VRNas.svg';
+import expand_more from '../../assets/images/components/header/expand_more.svg';
+import Vector from '../../assets/images/components/header/Vector.svg';
 
 
 const Header  = () => {
     return (
         <section>
-            <div className='header'>
-                <div className='header__logo'>
-                    <a className='header__logo' href="/">
-                        <div className='header__logo_icon'>
+            <div className="header">
+                <div className="header__logo">
+                    <a className="header__logo" href="/">
+                        <div className="header__logo_icon">
                             <img src={Logo} alt="logo_icon"/>
                         </div>
-                        <div className='header__logo_name'>
+                        <div className="header__logo_name">
                             <img src={VRNas} alt="VRNas"/>
                         </div>
                     </a>
                 </div>
-                <div className='header__nav'>
-                    <nav className='header__nav_menu'>
+                <div className="header__nav">
+                    <nav className="header__nav_menu">
                         <ul>
                             <li>Home</li>
                             <li>About us</li>
@@ -36,8 +36,8 @@ const Header  = () => {
                         </ul>
                     </nav>
                 </div>
-                <div className='header__button'>
-                    <button className='header__contact_button'>Contact us</button>
+                <div className="header__button">
+                    <button className="header__contact_button">Contact us</button>
                 </div>
 
                 <div className="hamburger-menu">
@@ -62,8 +62,8 @@ const Header  = () => {
                                 Blog <img src={expand_more} alt="expand_more"/>
                             </a>
                         </li>
-                        <li className='menu__item_btn'>
-                            <button className='menu__item'>Contact us</button>
+                        <li className="menu__item_btn">
+                            <button className="menu__item">Contact us</button>
                         </li>
                     </ul>
                 </div>
@@ -72,7 +72,7 @@ const Header  = () => {
 
             </div>
         </section>
-)
-}
+);
+};
 
 export default Header;
